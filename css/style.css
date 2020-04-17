@@ -1,0 +1,15 @@
+:root {
+  --main-color: #37474f;
+  --light-color: #62727b;
+  --dark-color: #102027;
+}
+
+.navbar {
+  background-color: var(--main-color);
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
