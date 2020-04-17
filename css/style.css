@@ -115,3 +115,91 @@ subtitle {
   background-color: brown;
   margin: 0.2rem auto;
 }
+
+.learn-more-about {
+  height: 100vh;
+  background-color: var(--dark-color);
+  color: #fff;
+  text-align: center;
+  padding: 100px;
+
+
+}
+
+.learn-more-about .learn-more-button {
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.learn-more-about .shipping-date {
+   display: inline-block;
+   text-align: center;
+   padding: 20px;
+
+}
+
+.learn-more-about p {
+  font-family: var(--font-secondary);
+}
+
+.person-of-week {
+  display: flex;
+  height: 60vh;
+}
+
+.person-of-week .profile-pic {
+  width: 30%;
+  background-color: var(--main-color); 
+}
+
+.person-of-week .profile-info {
+  width: 70%;
+  padding: 3rem;
+
+}
+
+.person-of-week .profile-info h4 {
+  font-family: var(--font-secondary);
+  line-height: 150%;
+  margin-bottom: 0.5rem; 
+}
+
+.person-of-week .profile-info p {
+  font-family: var(--font-secondary);
+  line-height: 150%;
+}
+
+
+.grid-writers {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  padding: 2rem;
+}
+
+.grid-writers .grid-writers-item {
+  height: 60vh;
+  padding: 2rem;
+}
+
+.grid-writers .grid-writers-item h4 {
+  margin-bottom: 0.8rem;
+  font-size: 1.5rem;
+}
+
+.grid-writers .grid-writers-item p {
+  font-family: var(--font-secondary);
+  line-height: 1.5rem;
+}
+
+
+.grid-writers .grid-writers-item h3 {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  color: var(--light-color);
+}
