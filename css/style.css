@@ -230,3 +230,17 @@ subtitle {
   margin-top: 1.4rem;
   font-weight: 700;
 }
+
+.curated-post {
+  display: flex;
+  width: 100%;
+}
+
+.curated-links-container {
+  width: calc(100% / 3);
+}
+.curated-links-container ul {
+  display: flex;
+  flex-direction: column;
+  list
+}
