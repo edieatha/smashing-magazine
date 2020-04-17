@@ -1,12 +1,22 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --main-color: #37474f;
   --light-color: #62727b;
   --dark-color: #102027;
+  --main-secondary: #455a64;
   --font-secondary: 'Libre Baskerville', serif;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #eeeeee;
 }
 
 .navbar {
@@ -25,11 +35,6 @@ body {
   margin-right: 2rem;
 }
 
-.container1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
 .title,
 subtitle {
   text-align: center;
@@ -39,4 +44,30 @@ subtitle {
   font-weight: 900;
   line-height: 150%;
   font-size: 1.3rem;
+}
+
+.container1 {
+  display: grid;
+  color: #fff;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-item {
+  height: 80vh;
+}
+.grid-item h4 {
+  font-size: 2rem;
+  padding: 3rem;
+  line-height: 150%;
+  font-weight: 900;
+}
+
+.container1 > .grid-item:first-child,
+.container1 > .grid-item:last-child {
+  background-color: var(--main-secondary);
+}
+.container1 > .grid-item:nth-child(2),
+.container1 > .grid-item:nth-child(3) {
+  background-color: #546e7a;
 }
