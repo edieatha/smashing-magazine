@@ -122,8 +122,6 @@ subtitle {
   color: #fff;
   text-align: center;
   padding: 100px;
-
-
 }
 
 .learn-more-about .learn-more-button {
@@ -138,10 +136,9 @@ subtitle {
 }
 
 .learn-more-about .shipping-date {
-   display: inline-block;
-   text-align: center;
-   padding: 20px;
-
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
 }
 
 .learn-more-about p {
@@ -155,26 +152,24 @@ subtitle {
 
 .person-of-week .profile-pic {
   width: 30%;
-  background-color: var(--main-color); 
+  background-color: var(--main-color);
 }
 
 .person-of-week .profile-info {
   width: 70%;
   padding: 3rem;
-
 }
 
 .person-of-week .profile-info h4 {
   font-family: var(--font-secondary);
   line-height: 150%;
-  margin-bottom: 0.5rem; 
+  margin-bottom: 0.5rem;
 }
 
 .person-of-week .profile-info p {
   font-family: var(--font-secondary);
   line-height: 150%;
 }
-
 
 .grid-writers {
   display: grid;
@@ -197,9 +192,41 @@ subtitle {
   line-height: 1.5rem;
 }
 
-
 .grid-writers .grid-writers-item h3 {
   margin-bottom: 0.8rem;
   font-size: 1rem;
   color: var(--light-color);
+}
+
+.design-system {
+  padding: 0 3rem;
+  width: 100%;
+  display: flex;
+  height: 50vh;
+  background-color: var(--dark-color);
+  color: #fff;
+  line-height: 150%;
+}
+.design-system > .design-system-item:first-child {
+  padding: 2rem 0;
+  flex: 1;
+}
+.design-system > .design-system-item:last-child {
+  flex-basis: 40%;
+  background-color: var(--light-color);
+}
+.design-system-title {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-weight: 900;
+}
+.design-system-table-content {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
+  margin-top: 1.4rem;
+  font-weight: 700;
 }
