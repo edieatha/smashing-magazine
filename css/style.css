@@ -2,14 +2,41 @@
   --main-color: #37474f;
   --light-color: #62727b;
   --dark-color: #102027;
+  --font-secondary: 'Libre Baskerville', serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
   background-color: var(--main-color);
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.nav-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 2rem;
 }
 
 .container1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+}
+.title,
+subtitle {
+  text-align: center;
+}
+
+.title {
+  font-weight: 900;
+  line-height: 150%;
+  font-size: 1.3rem;
 }
