@@ -149,11 +149,11 @@ body {
 }
 
 .person-of-week .profile-info {
-  padding: 3rem;
+  margin: 3rem;
   width: 70%;
 }
 
-.person-of-week .profile-info h4 {
+.person-of-week .profile-info .person-ofweek-h4 {
   font-family: 'Libre Baskerville', serif;
   line-height: 150%;
   margin-bottom: 0.5rem;
@@ -186,7 +186,7 @@ body {
   text-decoration: none;
 }
 
-.grid-writers .grid-writers-item h4 {
+.grid-writers .grid-writers-item .grid-writers-h4 {
   font-size: 1.5rem;
   margin-bottom: 0.8rem;
 }
@@ -196,7 +196,7 @@ body {
   line-height: 1.5rem;
 }
 
-.grid-writers .grid-writers-item h3 {
+.grid-writers .grid-writers-item .grid-writers-h3 {
   color: #62727b;
   font-size: 1rem;
   margin-bottom: 0.8rem;
@@ -208,7 +208,6 @@ body {
   display: flex;
   line-height: 150%;
   padding: 1rem 3rem;
-  width: 100%;
 }
 
 .design-system > .design-system-item:first-child {
@@ -346,7 +345,7 @@ body {
 
 .form-input {
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
 }
 
 .input-control {
@@ -355,7 +354,6 @@ body {
   border-radius: 6px;
   margin: 0;
   padding: 1rem;
-  width: 50%;
 }
 
 .btn {
