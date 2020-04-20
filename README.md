@@ -2,11 +2,13 @@
 
 > Smashing Magazine
 
-![screenshot](./newyorktimes.jpg)
+![screenshot](./images/1.jpg)
+![screenshot](./images/3.jpg)
 
 Additional description about the project and its features.
 
 ## Playing with Visual Hierarchy
+
 1. Visual hierarchy of elements displayed with different shades of grey.
 2. Typography and text elements hierarchy portrayed with different text sizes
 3. Applied CSS Grid, Flex and Float methods for positioning elements.
@@ -22,7 +24,6 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://heuristic-murdock-0f43b7.netlify.app/)
 
-
 ## Getting Started
 
 **Web browser needed**
@@ -37,9 +38,6 @@ To get a local copy up and running follow these simple example steps.
 
 ### Open index.html
 
-
-
-
 ## Authors
 
 👤 **Edie Atha**
@@ -48,12 +46,12 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@edieatha](https://twitter.com/edieatha)
 - Linkedin: [linkedin](https://www.linkedin.com/in/edieatha/)
 
-
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/gabrie-lhilarion)
-- Twitter: [@twitterhandle](https://twitter.com/gabrieldeman)
-- Linkedin: [linkedin](https://linkedin.com/gabrieldeman)
+- Github: [@githubhandle](https://github.com/chirchir12)
+- Twitter: [@twitterhandle](https://twitter.com/shadochir)
+- Linkedin: [linkedin](https://www.linkedin.com/in/chirma/)
+- Email: [email](chirchir7370@gmail.com)
 
 ## 🤝 Contributing
 
