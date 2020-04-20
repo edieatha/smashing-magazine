@@ -275,3 +275,97 @@ subtitle {
   width: 1em;
   margin-left: -1em;
 }
+
+.smashing-newsletter {
+  height: 55rem;
+  width: 90%;
+  margin: 7rem auto;
+  color: #fff;
+}
+
+.smashing-newsletter-descr {
+  text-align: center;
+  padding: 2.5rem 5rem;
+  line-height: 150%;
+  font-size: 1rem;
+  font-family: var(--font-secondary);
+  font-weight: 200;
+}
+.smashing-magazine-title {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 2.4rem;
+}
+.smashing-magazine-divider {
+  width: 50%;
+  height: 2px;
+  background-color: var(--main-color);
+  margin: 0 auto;
+}
+
+.smashing-newsletter .subscribe-section {
+  width: 60%;
+  background-color: var(--main-secondary);
+  height: 100%;
+  float: right;
+}
+.smashing-newsletter > .design-patterns {
+  color: var(--main-color);
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+}
+.image-newsletter-container {
+  height: 31rem;
+  width: 28rem;
+  margin: 1rem auto;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+}
+.form-input {
+  width: 50%;
+  margin: 0 auto;
+}
+.input-control {
+  width: 70%;
+  padding: 1rem;
+  margin: 0;
+  background-color: #fff;
+  border: 0;
+  border-radius: 6px;
+}
+.btn {
+  border: 0;
+  padding: 1rem 1.5rem;
+  margin-left: -10px;
+  background-color: #fff;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+  border-left: 1px solid grey;
+}
+.subscribe-footer {
+  margin-top: 2.8rem;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.subscribe-footer > p {
+  text-align: center;
+}
+
+.design-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.design-patterns ul li {
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+.design-patterns ul li a {
+  color: var(--main-color);
+  font-size: 1.2rem;
+}
