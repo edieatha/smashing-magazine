@@ -2,8 +2,8 @@
 
 > Smashing Magazine
 
-[screenshot](./images/1.jpg)
-[screenshot](./images/3.jpg)
+[screenshot](./images/1.png)
+[screenshot](./images/3.png)
 
 Additional description about the project and its features.
 
