@@ -66,17 +66,16 @@ body {
 }
 
 .latest-post-grid-item {
-  height: 90vh;
   padding: 1rem 2rem;
 }
 
-.latest-post-grid-item h3,
+.latest-post-grid-item .latest-post-h3,
 .latest-post-grid-item p,
 .latest-post-grid-item span {
   line-height: 150%;
 }
 
-.latest-post-grid-item h3 {
+.latest-post-grid-item .latest-post-h3 {
   font-size: 1.5rem;
   font-weight: 900;
   margin-bottom: 0.5rem;
@@ -113,8 +112,8 @@ body {
 .learn-more-about {
   background-color: #102027;
   color: #fff;
-  height: 100vh;
-  padding: 100px;
+  line-height: 150%;
+  padding: 8rem 20rem;
   text-align: center;
 }
 
@@ -171,13 +170,13 @@ body {
 
 .grid-writers {
   display: grid;
-  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
   padding: 2rem;
 }
 
 .grid-writers .grid-writers-item {
-  height: 60vh;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 .footer-main .footer-h4 {
@@ -207,9 +206,8 @@ body {
   background-color: #102027;
   color: #fff;
   display: flex;
-  height: 50vh;
   line-height: 150%;
-  padding: 0 3rem;
+  padding: 1rem 3rem;
   width: 100%;
 }
 
@@ -264,7 +262,7 @@ body {
   padding-bottom: 0.5rem;
 }
 
-.curated-links-container h3 {
+.curated-links-container .curated-h3 {
   font-size: 26.7px;
   font-weight: 700;
   line-height: 32px;
@@ -353,8 +351,8 @@ body {
 
 .input-control {
   background-color: #fff;
-  border-radius: 6px;
   border: 0;
+  border-radius: 6px;
   margin: 0;
   padding: 1rem;
   width: 50%;
@@ -362,10 +360,10 @@ body {
 
 .btn {
   background-color: #fff;
+  border: 0;
   border-bottom-right-radius: 6px;
   border-left: 1px solid grey;
   border-top-right-radius: 6px;
-  border: 0;
   margin-left: -10px;
   padding: 1rem 1.5rem;
 }
@@ -394,7 +392,6 @@ body {
 
 .footer-main {
   background-color: #102027;
-  height: 100vh;
   padding: 4rem;
   text-align: center;
 }
