@@ -1,10 +1,3 @@
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 :root {
   --dark-color: #102027;
   --font-secondary: 'Libre Baskerville', serif;
@@ -349,7 +342,7 @@ subtitle {
 
 .form-input {
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
 }
 
 .input-control {
@@ -358,7 +351,7 @@ subtitle {
   border: 0;
   margin: 0;
   padding: 1rem;
-  width: 70%;
+  width: 50%;
 }
 
 .btn {
@@ -404,7 +397,7 @@ subtitle {
   text-align: center;
 }
 
-.footer-main ul li a, h4{
+.footer-main ul li a, .footer-main h4{
   color: #fff;
   font-family: var(--font-secondary);
   margin-bottom: 1rem;
