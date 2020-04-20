@@ -234,13 +234,44 @@ subtitle {
 .curated-post {
   display: flex;
   width: 100%;
+  margin-top: 1.5rem;
 }
 
 .curated-links-container {
   width: calc(100% / 3);
+  padding: 1.5rem 2rem;
 }
 .curated-links-container ul {
   display: flex;
   flex-direction: column;
-  list
+  list-style: none;
+}
+.curated-links-container span {
+  display: block;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  padding-bottom: 0.5rem;
+}
+.curated-links-container h3 {
+  font-size: 26.7px;
+  font-weight: 700;
+  line-height: 32px;
+  opacity: 0.8;
+}
+.curated-links-container ul > li > a {
+  color: var(--main-color);
+}
+.curated-links-container ul > li {
+  margin-left: 1.7rem;
+  line-height: 150%;
+  margin-top: 0.6rem;
+  font-size: 21px;
+}
+.curated-links-container ul > li::before {
+  content: '\2022';
+  color: var(--dark-color);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
