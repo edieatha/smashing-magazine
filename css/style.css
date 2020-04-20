@@ -61,7 +61,8 @@ body {
 
 .latest-posts-grid {
   display: grid;
-  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
 }
 
 .latest-post-grid-item {
@@ -159,6 +160,10 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.subscribe-footer > p {
+  text-align: center;
+}
+
 .person-of-week .profile-info p {
   font-family: 'Libre Baskerville', serif;
   line-height: 150%;
@@ -173,6 +178,13 @@ body {
 .grid-writers .grid-writers-item {
   height: 60vh;
   padding: 2rem;
+}
+
+.footer-main .footer-h4 {
+  color: #fff;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 1rem;
+  text-decoration: none;
 }
 
 .grid-writers .grid-writers-item h4 {
@@ -364,10 +376,6 @@ body {
   margin-top: 2.8rem;
 }
 
-.subscribe-footer > p {
-  text-align: center;
-}
-
 .design-title {
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -391,7 +399,7 @@ body {
   text-align: center;
 }
 
-.footer-main ul li a, .footer-main h4{
+.footer-main ul li a {
   color: #fff;
   font-family: 'Libre Baskerville', serif;
   margin-bottom: 1rem;
