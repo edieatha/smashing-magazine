@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #eeeeee;
+  background-color: #eee;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -19,6 +19,7 @@ body {
   height: 5rem;
   justify-content: center;
 }
+
 .nav-item {
   display: flex;
   flex-direction: column;
@@ -28,7 +29,7 @@ body {
 }
 
 .title,
-subtitle {
+.subtitle {
   text-align: center;
 }
 
@@ -60,6 +61,7 @@ subtitle {
 .container1 > .grid-item:last-child {
   background-color: var(--main-secondary);
 }
+
 .container1 > .grid-item:nth-child(2),
 .container1 > .grid-item:nth-child(3) {
   background-color: #546e7a;
