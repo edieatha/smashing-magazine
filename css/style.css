@@ -369,3 +369,60 @@ subtitle {
   color: var(--main-color);
   font-size: 1.2rem;
 }
+
+.footer-main {
+  text-align: center;
+  padding: 4rem;
+  height: 100vh;
+  background-color: var(--dark-color);
+}
+
+.footer-main ul li a, h4{
+  color: #fff;
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  margin-bottom: 1rem;
+}
+
+.footer-main .main-footer-links li {
+  display: inline-block;
+  margin-right: 2rem;
+  line-height: 2rem;
+}
+
+.footer-main .main-footer-links > li::before {
+  content: '\2022';
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+
+.footer-main .copyright {
+  padding: 3rem 20rem;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 100;
+  font-family: var(--font-secondary);
+  line-height: 200%;
+}
+
+.footer-main .footer-links ul li a {
+  font-size: 0.8rem;
+}
+
+.footer-links .about-us {
+  list-style: none;
+}
+
+.foter-links .about-us li {
+  text-decoration: underline;
+}
+
+
+.footer-main .about-us li {
+  display: inline-block;
+  margin-right: 2rem;
+  line-height: 2rem;
+  text-decoration: underline;
+}
