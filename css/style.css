@@ -1,0 +1,444 @@
+body {
+  background-color: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  align-items: center;
+  background-color: #37474f;
+  color: #fff;
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.title,
+.subtitle {
+  text-align: center;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: 900;
+  line-height: 150%;
+}
+
+.container1 {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.grid-item {
+  height: 80vh;
+}
+
+.grid-item .grid-h4 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 150%;
+  padding: 3rem;
+}
+
+.container1 > .grid-item:first-child,
+.container1 > .grid-item:last-child {
+  background-color: #455a64;
+}
+
+.container1 > .grid-item:nth-child(2),
+.container1 > .grid-item:nth-child(3) {
+  background-color: #546e7a;
+}
+
+.latest-posts-grid {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+}
+
+.latest-post-grid-item {
+  padding: 1rem 2rem;
+}
+
+.latest-post-grid-item .latest-post-h3,
+.latest-post-grid-item p,
+.latest-post-grid-item span {
+  line-height: 150%;
+}
+
+.latest-post-grid-item .latest-post-h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+}
+
+.latest-posts-grid > .latest-post-grid-item:nth-child(4),
+.latest-posts-grid > .latest-post-grid-item:nth-child(9) {
+  background-color: #37474f;
+  color: #fff;
+}
+
+.more-articles-container {
+  margin: 2.5rem 0;
+  width: 100%;
+}
+
+.more-articles-container .more-articles {
+  color: black;
+  display: block;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.divider-underline {
+  background-color: brown;
+  height: 3px;
+  margin: 0.2rem auto;
+  width: 200px;
+}
+
+.learn-more-about {
+  background-color: #102027;
+  color: #fff;
+  line-height: 150%;
+  padding: 8rem 20rem;
+  text-align: center;
+}
+
+.learn-more-about .learn-more-button {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000;
+  display: inline-block;
+  font-weight: 900;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.learn-more-about .shipping-date {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+}
+
+.learn-more-about p {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.person-of-week {
+  display: flex;
+  height: 60vh;
+}
+
+.person-of-week .profile-pic {
+  background-color: #37474f;
+  width: 30%;
+}
+
+.person-of-week .profile-info {
+  margin: 3rem;
+  width: 70%;
+}
+
+.person-of-week .profile-info .person-ofweek-h4 {
+  font-family: 'Libre Baskerville', serif;
+  line-height: 150%;
+  margin-bottom: 0.5rem;
+}
+
+.subscribe-footer > p {
+  text-align: center;
+}
+
+.person-of-week .profile-info p {
+  font-family: 'Libre Baskerville', serif;
+  line-height: 150%;
+}
+
+.grid-writers {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+  padding: 2rem;
+}
+
+.grid-writers .grid-writers-item {
+  padding: 4rem;
+}
+
+.footer-main .footer-h4 {
+  color: #fff;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.grid-writers .grid-writers-item .grid-writers-h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.grid-writers .grid-writers-item p {
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.5rem;
+}
+
+.grid-writers .grid-writers-item .grid-writers-h3 {
+  color: #62727b;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.design-system {
+  background-color: #102027;
+  color: #fff;
+  display: flex;
+  line-height: 150%;
+  padding: 1rem 3rem;
+}
+
+.design-system > .design-system-item:first-child {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+.design-system > .design-system-item:last-child {
+  background-color: #62727b;
+  flex-basis: 40%;
+}
+
+.design-system-title {
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.design-system-table-content {
+  background-color: #fff;
+  border-radius: 5px;
+  color: black;
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 1.4rem;
+  padding: 0.8rem 2rem;
+}
+
+.curated-post {
+  display: flex;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.curated-links-container {
+  padding: 1.5rem 2rem;
+  width: calc(100% / 3);
+}
+
+.curated-links-container ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.curated-links-container span {
+  display: block;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  padding-bottom: 0.5rem;
+}
+
+.curated-links-container .curated-h3 {
+  font-size: 26.7px;
+  font-weight: 700;
+  line-height: 32px;
+  opacity: 0.8;
+}
+
+.curated-links-container ul > li > a {
+  color: #37474f;
+}
+
+.curated-links-container ul > li {
+  font-size: 21px;
+  line-height: 150%;
+  margin-left: 1.7rem;
+  margin-top: 0.6rem;
+}
+
+.curated-links-container ul > li::before {
+  color: #102027;
+  content: '\2022';
+  display: inline-block;
+  font-weight: bold;
+  margin-left: -1em;
+  width: 1em;
+}
+
+.smashing-newsletter {
+  color: #fff;
+  height: 55rem;
+  margin: 7rem auto;
+  width: 90%;
+}
+
+.smashing-newsletter-descr {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 150%;
+  padding: 2.5rem 5rem;
+  text-align: center;
+}
+
+.smashing-magazine-title {
+  font-size: 2.4rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.smashing-magazine-divider {
+  background-color: #37474f;
+  height: 2px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.smashing-newsletter .subscribe-section {
+  background-color: #455a64;
+  float: right;
+  height: 100%;
+  width: 60%;
+}
+
+.smashing-newsletter > .design-patterns {
+  color: #37474f;
+  display: inline-block;
+  height: 100%;
+  width: 40%;
+}
+
+.image-newsletter-container {
+  height: 31rem;
+  margin: 1rem auto;
+  width: 28rem;
+}
+
+.img-fluid {
+  filter: grayscale(100%);
+  height: auto;
+  max-width: 100%;
+}
+
+.form-input {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.input-control {
+  background-color: #fff;
+  border: 0;
+  border-radius: 6px;
+  margin: 0;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: #fff;
+  border: 0;
+  border-bottom-right-radius: 6px;
+  border-left: 1px solid grey;
+  border-top-right-radius: 6px;
+  margin-left: -10px;
+  padding: 1rem 1.5rem;
+}
+
+.subscribe-footer {
+  color: #fff;
+  font-size: 0.9rem;
+  margin-top: 2.8rem;
+}
+
+.design-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.design-patterns ul li {
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.design-patterns ul li a {
+  color: #37474f;
+  font-size: 1.2rem;
+}
+
+.footer-main {
+  background-color: #102027;
+  padding: 4rem;
+  text-align: center;
+}
+
+.footer-main ul li a {
+  color: #fff;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.footer-main .main-footer-links li {
+  display: inline-block;
+  line-height: 2rem;
+  margin-right: 2rem;
+}
+
+.footer-main .main-footer-links > li::before {
+  color: white;
+  content: '\2022';
+  display: inline-block;
+  font-weight: bold;
+  width: 1em;
+}
+
+.footer-main .copyright {
+  color: #fff;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 0.7rem;
+  font-weight: 100;
+  line-height: 200%;
+  padding: 3rem 20rem;
+}
+
+.footer-main .footer-links ul li a {
+  font-size: 0.8rem;
+}
+
+.footer-links .about-us {
+  list-style: none;
+}
+
+.foter-links .about-us li {
+  text-decoration: underline;
+}
+
+.footer-main .about-us li {
+  display: inline-block;
+  line-height: 2rem;
+  margin-right: 2rem;
+  text-decoration: underline;
+}
